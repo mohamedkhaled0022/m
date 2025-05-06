@@ -1,0 +1,187 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+
+
+*{margin: 0;
+   padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', serif;
+
+
+}
+body{
+
+    background-color: #111239;
+}
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    padding: 0 0.5rem;
+    max-width: 1200px;
+
+}
+.navigation {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+.navigation a{
+
+    text-decoration: none;
+    color: #eeee;
+}
+.navigation a:hover{
+
+    color: aqua;
+}
+hr{
+    opacity: 10%;
+}
+.hero{
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+}
+.arrow{
+    position: absolute;
+    transform: translatex(-50.5rem) translateY(1.5rem);
+}
+.herosub{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.name{
+    font-size: 3rem;
+    color: aliceblue;
+}
+.title{
+    font-size: 4rem;
+    color: aqua;
+}
+.herobtns{
+display: flex;
+gap: 1rem;
+margin-top: 1.5rem;
+align-items: center;
+flex-wrap: wrap;
+}
+.hireme{
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: cadetblue;
+    border-radius: 24px;
+    padding: 0.5rem 1rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5rem);
+}
+.cv{
+
+    background-color: rgba(57, 62,70, 0.75);
+    color: #eeeeee;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 5rem 1,5rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+   
+    align-items: center;
+    gap: 5rem;
+    backdrop-filter:blur(10px);
+    
+}
+.aboutme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    gap: 40px;
+   
+    border-radius: 20px;
+    max-width: 1000px;
+    margin: 80px auto 40px auto; /* ← دي هتضيف مسافة من فوق */
+    flex-wrap: wrap;
+}
+
+
+.aboutmeimg {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    margin-right: auto;
+    align-self: flex-start; /* ← دي هتخلي الصور متساويين من فوق */
+}
+
+
+
+.textcontainer {
+    max-width: 500px;
+}
+
+.text.title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.aboutnamee,
+.abouttitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:aqua;
+}
+
+.aboutmepar {
+    font-size: 2rem; /* الخط أكبر بس */
+    color:whitesmoke;
+    line-height: 1.8;
+    margin-top: 15px;
+}
+#myworks {
+    margin-top: 150px;
+}
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+.contactTitle
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20rem;
+    margin-right: 5rem;
+}
+.contact h3 {
+    color: #eeeeee;
+    text-decoration: none;
+}
+.aboutName {
+    color: aqua;
+}
+.aboutTitle{
+    color: aqua;
+}
